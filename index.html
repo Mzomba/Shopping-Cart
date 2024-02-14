@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" async></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <title>Home</title>
+  </head>
+  <body>
+    <div id="container" class="container">
+      <nav class="nav-title">
+        <div class="title">Shopping Cart</div>
+      </nav>
+      <section class="products-section">
+        <div class="product-section-title">Products</div>
+
+        <div class="products">
+          <div id="product" class="product">
+            <p class="product-title">Mango</p>
+            <img class="product-img" src="images/mango.jpg" alt="" />
+            <div class="shop-item-details">
+              <span style="font-weight: 600">price: </span>
+              <span class="product-price">E5.99</span>
+            </div>
+            <button id="btn" class="btn shop-cart-btn">Add</button>
+          </div>
+
+          <div class="product">
+            <p class="product-title">Apple</p>
+            <img class="product-img" src="images/apple.jpg" alt="" />
+            <div class="shop-item-details">
+              <span style="font-weight: 600">price: </span>
+              <span class="product-price">E5.99</span>
+            </div>
+            <button class="btn shop-cart-btn">Add</button>
+          </div>
+
+          <div class="product">
+            <p class="product-title">Banana</p>
+            <img class="product-img" src="images/banana.jpg" alt="" />
+            <div class="shop-item-details">
+              <span style="font-weight: 600">price:</span>
+              <span class="product-price">E10.95</span>
+            </div>
+            <button class="btn shop-cart-btn">Add</button>
+          </div>
+
+          <div class="product">
+            <p class="product-title">Orange</p>
+            <img class="product-img" src="images/orange.jpg" alt="" />
+            <div>
+              <span style="font-weight: 600">price:</span>
+              <span class="product-price">E7.11</span>
+            </div>
+            <button class="btn shop-cart-btn">Add</button>
+          </div>
+
+          <div class="product">
+            <p class="product-title">Strawberry</p>
+            <img class="product-img" src="images/strawberry.jpg" alt="" />
+            <div>
+              <span style="font-weight: 600">price:</span>
+              <span class="product-price">E12.56</span>
+            </div>
+            <button class="btn shop-cart-btn">Add</button>
+          </div>
+        </div>
+      </section>
+      <section class="cart-section">
+        <h1 class="cart-title">Cart</h1>
+
+        <div class="cart-container">
+          <div class="cart-column"></div>
+
+          <div class="total-container">
+            <div class="total-price">
+              <div class="total-div">
+                <p>Total Price</p>
+                <span class="cart-total">E0.00</span>
+              </div>
+              <div><button class="btn pay-btn">Pay</button></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer></footer>
+    </div>
+  </body>
+</html>
